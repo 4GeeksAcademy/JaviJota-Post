@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin-top: 1rem;
+}
+
+img {
+    max-width: 500px;
+    max-height: 800px;
+    object-fit: cover;
+}
+
+.post {
+    margin: auto;
+    width: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+.post-header {
+    display: flex;
+    padding: 1rem;
+}
+
+.user{
+    align-content: center;
+}
+
+.data {
+    font-size: 14px;
+}
+
+.options {
+    width: 100%;
+    text-align: right;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profilePic {
+    width: 40px;
+    height: 40px;
+    object-fit:cover;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+
+.icons{
+    margin: 16px;
+    display: flex;
+    align-content: center;
+}
+
+.icons-izda {
+    width: 100%;
+}
+
+.fa-regular {
+    margin-right: 5px;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-bookmark:hover {
+    color: yellow;
+}
+
+.text {
+    margin: 1rem;
+}
+
+.descripcion {
+    padding-bottom: 2rem;
+}
